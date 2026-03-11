@@ -1,0 +1,17 @@
+.colour{background-color: purple;
+
+}
+.colour{
+    background-color: purple;
+    width: 400px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+.big-div{
+    border: 5px solid black;
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+    border
+}
