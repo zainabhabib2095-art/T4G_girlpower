@@ -29,8 +29,12 @@
     height: 250px;
     border-radius: 5px;
     overflow: hidden;
-    }
-
+   
+}
+ 
+.big-div:hover {
+  outline: 2px dashed blue;
+}
 p{
     font-weight: bold;
     text-decoration-color: blue;
@@ -81,4 +85,34 @@ p{
     font-size: 20px;
     font-weight: bold;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.nav p{
+    margin-right: 20px;
+    text-decoration-color: white;
+    font-size: 10px;
+    font-weight: lighter;
+    border-radius: 15px;
+    background-color: green;
+    padding: 5px;
+    border: 1px solid white;
+}
+/* .right{
+     display: inline-flex; 
+     gap: 8px; 
+    margin-left: auto; 
+} */
+/* .right{
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 0 8px
+} */
+ .right{
+    display: flex;
+    gap: 20px;
+ }
+ .fa-solidfa-question{
+    margin: 10px;
+ }
